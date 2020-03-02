@@ -1,0 +1,140 @@
+
+			ul {
+	  			list-style-type: none;
+	  			margin: 0;
+	  			padding: 0;
+	  			overflow: hidden;
+	  			background-color: #4D4D4D;
+	  			position: fixed;
+	  			width: 99%;
+			}
+
+			li {
+			  	float: left;
+			  	border-right: 4px solid #418FDE;
+			}
+
+			li a {
+			  	display: block;
+			  	color: #418FDE;
+			  	text-align: center;
+			 	padding: 14px 16px;
+			  	text-decoration: none;
+			  
+			}
+
+
+			/* Change the link color to #111 (black) on hover */
+			li a:hover {
+			  	background-color: #4D4D4D;
+			}
+
+
+		.hometitletext{
+
+			color: #3B9EDB;
+			font-size: 150px;
+			text-align: center;
+			font-family: 'Noto Serif';
+
+			
+		}
+
+
+		#goal3button{
+
+			background-color: #469B49;
+			vertical-align: middle;
+			color: white;
+			font-size: 50px;
+			padding: 9px;
+			border-radius: 8px;
+			margin: 30px;
+			font-family: 'Noto Serif';
+
+
+
+		}
+
+		#goal8button{
+
+			background-color: #9F253E;
+			vertical-align: middle;
+			color: white;
+			font-size: 50px;
+			padding: 9px;
+			border-radius: 8px;
+			margin: 30px;
+			font-family: 'Noto Serif';
+
+		}
+
+		#commonlinkbtn{
+
+			background-color: #949391;
+			vertical-align: middle;
+			color: white;
+			font-size: 50px;
+			padding: 9px;
+			border-radius: 8px;
+			margin: 30px;
+			font-family: 'Noto Serif';
+
+		}
+
+
+
+		}
+
+		.active {
+ 			 background-color: #4D4D4D;
+		}
+
+		
+
+		.parallax {
+
+			
+			min-height: 800px;
+			background-attachment: fixed;
+		  	background-position: center;
+		  	background-repeat: no-repeat;
+		  	background-size: cover;
+
+		}
+
+		#parallaxH {
+
+			background-image: url("projectimages/Flag_of_the_United_Nations.svg");
+		}
+
+		#parallax3 {
+
+			background-image: url("projectimages/Capture.png");
+		}
+
+		.btn-group button {
+
+
+		}
+
+		#smallimg {
+
+			height: 100px;
+			width: 100px;
+			position: fixed;
+			float: right;
+
+		}
+
+		#topimg {
+
+			 float: right;
+
+		}
+
+		
+
+
+ul.topnav li a:hover:not(.active) {background-color: #3F3F3F}
+ul.topnav li a.active {background-color: #3F3F3F}

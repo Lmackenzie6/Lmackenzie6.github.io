@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nav Bar</title>
+</head>
+<body>
+	<style>
+
+		.active {
+ 			 background-color: #4CAF50;
+		}
+
+		ul {
+  			list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+  			overflow: hidden;
+  			background-color: #3F4549;
+		}
+
+		li {
+		  	float: left;
+		  	border-right: 1px solid #50AF50;
+		}
+
+		li a {
+		  	display: block;
+		  	color: #CB3F46;
+		  	text-align: center;
+		 	padding: 14px 16px;
+		  	text-decoration: none;
+		}
+
+		li button {
+		  	display: block;
+		  	color: #CB3F46;
+		  	text-align: center;
+		 	padding: 14px 16px;
+		  	text-decoration: none;
+		}
+
+		/* Change the link color to #111 (black) on hover */
+		li a:hover {
+		  	background-color: #50AF50;
+		}
+
+
+ul.topnav li button:hover:not(.active) {background-color: #111}
+ul.topnav li button.active {background-color: #4CAF50}
+
+
+	</style>
+
+
+	<ul class="topnav">
+	  <li><a href="#home">Home</a></li>
+	  <li><a href="#news">Goal 3</a></li>
+	  <li><a href="#contact">Goal 8</a></li>
+	  <li style="float:top"><a class="active" href="#about">Common Link</a></li>
+	  <li><button type="button">Click Me!></button></li>
+	</ul>
+
+
+
+
+</body>
+
+<script>
+	
+	list = [];
+	x = window.prompt("sometext","defaultText");
+	list.push(x);
+	console.log(list);
+	console.log(x);
+
+
+</script>
+
+</html>
