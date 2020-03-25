@@ -24,7 +24,6 @@
 			}
 
 
-			/* Change the link color to #111 (black) on hover */
 			li a:hover {
 			  	background-color: #4D4D4D;
 			}
@@ -112,11 +111,20 @@
 
 			background-image: url("projectimages/Capture.png");
 		}
+        
+        #parallax8 {
 
-		.btn-group button {
-
-
+			background-image: url("projectimages/429849.jpg");
 		}
+
+        #parallaxCL {
+    			
+            background-image: url("projectimages/United_Nations_Flags_-_cropped.jpg");
+
+    
+        }
+
+		
 
 		#smallimg {
 
@@ -133,7 +141,20 @@
 
 		}
 
-		
+        
+        #results {
+            
+            text-align: center;
+        }
+
+        #fname {
+            height: 200px;
+            width: 400px;
+            
+
+        }
+
+        
 
 
 ul.topnav li a:hover:not(.active) {background-color: #3F3F3F}
