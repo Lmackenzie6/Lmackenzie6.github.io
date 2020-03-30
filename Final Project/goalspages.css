@@ -6,7 +6,7 @@
 	  			overflow: hidden;
 	  			background-color: #4D4D4D;
 	  			position: fixed;
-	  			width: 99%;
+	  			width: 98.5%;
 			}
 
 			li {
@@ -31,13 +31,23 @@
 
 		.hometitletext{
 
-			color: #3B9EDB;
+			color: #232222;
 			font-size: 150px;
 			text-align: center;
 			font-family: 'Noto Serif';
 
 			
 		}
+
+        .parallaxtext{
+
+			color: white;
+			font-size: 150px;
+			text-align: center;
+			font-family: 'Noto Serif';
+			
+		}
+
 
 
 		#goal3button{
@@ -80,6 +90,12 @@
 			font-family: 'Noto Serif';
 
 		}
+
+        .goalsdivs {
+            
+            background-color: #949391;
+            
+        }
 
 
 
@@ -152,6 +168,48 @@
             width: 400px;
             
 
+        }
+
+
+        .flip-card {
+          background-color: transparent;
+          width: 300px;
+          height: 200px;
+          perspective: 1000px;
+          padding-top: 100px;
+          padding-bottom: 200px;
+        }
+
+        .flip-card-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.9s;
+          transform-style: preserve-3d;
+        }
+
+        .flip-card:hover .flip-card-inner {
+          transform: rotateY(180deg);
+        }
+
+        .flip-card-front, .flip-card-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+        }
+
+        .flip-card-front {
+          background-color: #bbb;
+          color: black;
+        }
+
+        .flip-card-back {
+          background-color: #469B49;
+          color: white;
+          transform: rotateY(180deg);
         }
 
         
