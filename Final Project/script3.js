@@ -21,7 +21,7 @@ function clicked() {
             ptag = document.getElementById("results")
             
             
-            ptag.innerHTML = value+" had a maternal mortality ratio of "+mmratio[i] + " deaths per 100,000 live births" + " in the year " + year[i] + ".";
+            ptag.innerHTML = value+" had a maternal mortality ratio of "+mmratio[i] + " deaths per 100,000 live births" + " in the year " + year[i] + ". <br/> <br/> <br/> <br/> Statistics are from: https://unstats.un.org/sdgs/indicators/database/";
             
             console.log("found it")
             return;

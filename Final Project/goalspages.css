@@ -1,12 +1,37 @@
+            .grid-container {
+                display: grid;
+                grid-template-columns: 720px 720px;
+                justify-content: space-evenly;
+                
+            }
 
-			ul {
+            .grid-container > div {
+
+
+                background-color: #FFFFFF
+            }
+
+
+            .textgrad {
+                  background-image: -webkit-linear-gradient(to right, #4C9F38, #A32642 );
+                  background-image: gradient(to right, #4C9F38, #A32642);
+                  color:transparent;
+                  -webkit-background-clip: text;
+                  background-clip: text;
+                }
+
+
+
+
+
+            ul {
 	  			list-style-type: none;
 	  			margin: 0;
 	  			padding: 0;
 	  			overflow: hidden;
 	  			background-color: #4D4D4D;
 	  			position: fixed;
-	  			width: 98.5%;
+	  			width: 100%;
                 z-index: 10000;
 			}
 
@@ -19,9 +44,9 @@
 			  	display: block;
 			  	color: #418FDE;
 			  	text-align: center;
-			 	padding: 14px 16px;
+			 	padding: 14px 18px;
 			  	text-decoration: none;
-                font-family: 'Nunito Sans', sans-serif;
+                font-family: 'Raleway', sans-serif;
 			  
 			}
 
@@ -61,13 +86,19 @@
 
             }
 
+            .td8 {
+                font-size: 17px
+
+
+            }
+
 
 		.hometitletext{
 
 			color: #232222;
 			font-size: 150px;
 			text-align: center;
-			font-family: 'Nunito Sans', sans-serif;
+			font-family: 'Raleway', sans-serif;
 
 			
 		}
@@ -92,7 +123,7 @@
 			padding: 9px;
 			border-radius: 8px;
 			margin: 30px;
-			font-family: 'Nunito Sans', sans-serif;
+			font-family: 'Raleway', sans-serif;
 
 
 
@@ -107,7 +138,7 @@
 			padding: 9px;
 			border-radius: 8px;
 			margin: 30px;
-			font-family: 'Nunito Sans', sans-serif;
+			font-family: 'Raleway', sans-serif;
 
 		}
 
@@ -120,13 +151,31 @@
 			padding: 9px;
 			border-radius: 8px;
 			margin: 30px;
-			font-family: 'Nunito Sans', sans-serif;
+			font-family: 'Raleway', sans-serif;
 
 		}
 
         .goalsdivs {
             
             background-color: #949391;
+            
+        }
+
+        .goalsdivsgradww {
+            
+            background-image: linear-gradient(#F4EBDD, #FFFFFF);
+            
+        }
+        .goalsdivswhite {
+            
+            background-color: #FFFFFF;
+            
+        }
+
+
+        .goal3div {
+            
+            background-color: #469B49;
             
         }
 
@@ -143,7 +192,7 @@
 		.parallax {
 
 			
-			min-height: 800px;
+			min-height: 1000px;
 			background-attachment: fixed;
 		  	background-position: center;
 		  	background-repeat: no-repeat;
@@ -173,7 +222,29 @@
     
         }
 
-		
+		#parallaxCL2 {
+    			
+            background-image: url("projectimages/doa_un.jpg");
+
+    
+        }
+
+        #parallaxCL3 {
+    			
+            background-image: url("projectimages/black3.jpg");
+            
+
+    
+        }
+
+
+        #parallaxCLGL3{
+            
+            background-image: url(projectimages/GOAL3-GOOD-HEALTH.jpg);
+            background-size: auto
+    
+    
+        }
 
 		#smallimg {
 
@@ -194,7 +265,7 @@
         #results {
             
             text-align: center;
-            font-family: 'Nunito Sans', sans-serif;
+            font-family: 'Raleway', sans-serif;
         }
 
         #fname {
@@ -252,7 +323,7 @@
 
         .words {
     
-            font-family: 'Nunito Sans', sans-serif;
+            font-family: 'Raleway', sans-serif;
     
         }
 
