@@ -9,7 +9,6 @@ document.getElementById("goal3button").onclick = clicked;
 function clicked() {
 	console.log("clicked")
     
-    loc = -1;
     
     value = document.getElementById("fname").value.toUpperCase();
     console.log(value);
